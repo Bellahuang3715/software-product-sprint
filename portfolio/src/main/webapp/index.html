@@ -8,12 +8,74 @@
   </head>
   <body>
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+      <h1>Bella Huang's Portfolio</h1>
+      <p>My name is Bella and I love coding!</p>
+
+        <div class="about-grid">
+            <div class="i-am">
+                <h3>I am</h3>
+                <u1 class="about-list">
+                    <li class="about-list-item">An engineer</li>
+                    <li class="about-list-item">An reader</li>
+                    <li class="about-list-item">An hobby cook</li>
+                </u1>
+            </div>
+
+            <div class="i-like">
+                <h3>I like to</h3>
+                <u1 class="about-list">
+                    <li class="about-list-item">Meet new people</li>
+                    <li class="about-list-item">Play guitar</li>
+                    <li class="about-list-item">Eat Icecream</li>
+                </u1>
+            </div>
+        </div>
+        <img src="images/dog.jpeg"/>
+
+        <!-- <p>Click <a href="/hello">here</a> to see content created by server code.</p>
+        <p>Click here to get a random message:</p>
+        <button onclick="addRandomGreeting()">Hello</button>
+        <div id="greeting-container"></div> -->
+
+        <div>
+            <h3 class="projects-heading">My Projects</h3>
+            <div class="projects-grid">
+                <img class="project-image" src="images/project-1.jpg"/>
+                <img class="project-image" src="images/project-2.jpg"/>
+                <img class="project-image" src="images/project-3.jpg"/>
+                <img class="project-image" src="images/project-4.jpg"/>
+            </div>
+        </div>
+
+        <div class="links-and-contacts">
+            <div class="links">
+                <h3>Links</h3>
+                <ul class="links-list">
+                    <li>
+                        <a href="https://github.com/Bellahuang3715">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/bella-huang3715/">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bella.huang3715/?hl=en">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <form action="#">
+              <label for="email">
+                    Email: <input type="email" id="email" placeholder="Enter your email" /> 
+              </label>
+              <label for="message">
+                    Message: <textarea id="message">Your Message</textarea>
+              </label>
+              <input type="submit" valid="Send Message" />
+            </form>
+        </div>
+
     </div>
   </body>
 </html>
