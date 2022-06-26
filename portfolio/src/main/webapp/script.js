@@ -28,6 +28,10 @@ function addRandomGreeting() {
 }
 
 // function that creates an alert 
-async function showAlert() {
-    alert("success!");
+async function showMessage() {
+    const responseFromServer = await fetch('/hello');
+    const textFromResponse = await responseFromServer.text();
+
+    const messageContainer = document.getElementById('message-container');
+    messageContainer.innerText = textFromResponse;
 }
